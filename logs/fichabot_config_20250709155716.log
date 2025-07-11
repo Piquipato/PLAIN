@@ -1,0 +1,11 @@
+[2025-07-09 15:57:16,352 | INFO]: Configuring FichaBot...
+[2025-07-09 15:57:16,354 | WARNING]: User plalandelg not found!
+[2025-07-09 15:57:16,355 | WARNING]: Creating new user configuration...
+[2025-07-09 15:57:16,355 | INFO]: Creating user configuration for plalandelg...
+[2025-07-09 15:57:26,206 | ERROR]: [1, 2, 3, 4, 5]
+[2025-07-09 15:57:26,232 | INFO]: User configuration for plalandelg created successfully.
+[2025-07-09 15:57:26,233 | INFO]: User configuration for plalandelg loaded successfully.
+[2025-07-09 15:57:26,235 | INFO]: Email: plalandelg@gmail.com
+[2025-07-09 15:57:26,236 | INFO]: New exceptions: 21/07/2025, 22/07/2025, 23/07/2025, 24/07/2025, 25/07/2025, 26/07/2025, 27/07/2025, 28/07/2025
+[2025-07-09 15:57:26,237 | INFO]: New timetable: 1, 2, 3, 4, 5
+[2025-07-09 15:57:26,239 | INFO]: User configuration updated successfully.

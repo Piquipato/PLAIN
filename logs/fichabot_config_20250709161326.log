@@ -1,0 +1,8 @@
+[2025-07-09 16:13:26,163 | INFO]: Configuring FichaBot...
+[2025-07-09 16:13:26,164 | INFO]: User configuration for plalandelg loaded successfully.
+[2025-07-09 16:13:26,166 | INFO]: Email: plalandelg@gmail.com
+[2025-07-09 16:13:26,166 | INFO]: New exceptions: 21/07/2025, 22/07/2025, 23/07/2025, 24/07/2025, 25/07/2025, 26/07/2025, 27/07/2025, 28/07/2025
+[2025-07-09 16:13:26,166 | ERROR]: ['21/07/2025-28/07/2025', '01/8/2025-10/08/2025']
+[2025-07-09 16:13:26,166 | ERROR]: 21/07/2025-28/07/2025
+[2025-07-09 16:13:26,175 | ERROR]: Start date: 2025-07-21 00:00:00, End date: 2025-07-28 00:00:00
+[2025-07-09 16:13:26,176 | ERROR]: Date range: [datetime.datetime(2025, 7, 21, 0, 0), datetime.datetime(2025, 7, 22, 0, 0), datetime.datetime(2025, 7, 23, 0, 0), datetime.datetime(2025, 7, 24, 0, 0), datetime.datetime(2025, 7, 25, 0, 0), datetime.datetime(2025, 7, 26, 0, 0), datetime.datetime(2025, 7, 27, 0, 0), datetime.datetime(2025, 7, 28, 0, 0)]

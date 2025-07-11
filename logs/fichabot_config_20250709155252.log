@@ -1,0 +1,18 @@
+[2025-07-09 15:52:52,469 | INFO]: Configuring FichaBot...
+[2025-07-09 15:52:52,469 | WARNING]: User plalandelg not found!
+[2025-07-09 15:52:52,469 | WARNING]: Creating new user configuration...
+[2025-07-09 15:52:52,469 | INFO]: Creating user configuration for plalandelg...
+[2025-07-09 15:53:04,328 | ERROR]: Error while running step _config
+[2025-07-09 15:53:04,328 | ERROR]: Exception: local variable 'exceptions_str' referenced before assignment
+[2025-07-09 15:53:04,360 | ERROR]: Traceback:
+Traceback (most recent call last):
+  File "D:\plalanda\PLAIN\fichabot\logger.py", line 84, in wrapper
+    return runner(*args, **kwargs)
+  File "D:\plalanda\PLAIN\fichabot\logger.py", line 51, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\plalanda\PLAIN\fichabot\config.py", line 144, in _config
+    create_user_config(
+  File "D:\plalanda\PLAIN\fichabot\config.py", line 82, in create_user_config
+    exceptions = parse_dates(exceptions_str)
+UnboundLocalError: local variable 'exceptions_str' referenced before assignment
+

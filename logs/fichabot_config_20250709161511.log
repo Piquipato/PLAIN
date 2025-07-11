@@ -1,0 +1,8 @@
+[2025-07-09 16:15:11,179 | INFO]: Configuring FichaBot...
+[2025-07-09 16:15:11,179 | INFO]: User configuration for plalandelg loaded successfully.
+[2025-07-09 16:15:11,179 | INFO]: Email: plalandelg@gmail.com
+[2025-07-09 16:15:11,186 | INFO]: New exceptions: 21/07/2025, 22/07/2025, 23/07/2025, 24/07/2025, 25/07/2025, 26/07/2025, 27/07/2025, 28/07/2025
+[2025-07-09 16:15:11,187 | ERROR]: Start date: 2025-07-21 00:00:00, End date: 2025-07-28 00:00:00
+[2025-07-09 16:15:11,187 | ERROR]: Start date: 2025-08-01 00:00:00, End date: 2025-08-10 00:00:00
+[2025-07-09 16:15:11,191 | INFO]: New timetable: 1, 2, 3, 4, 5
+[2025-07-09 16:15:11,194 | INFO]: User configuration updated successfully.

@@ -1,0 +1,18 @@
+[2025-07-09 15:54:09,262 | INFO]: Configuring FichaBot...
+[2025-07-09 15:54:09,262 | WARNING]: User plalandelg not found!
+[2025-07-09 15:54:09,262 | WARNING]: Creating new user configuration...
+[2025-07-09 15:54:09,265 | INFO]: Creating user configuration for plalandelg...
+[2025-07-09 15:54:19,680 | ERROR]: Error while running step _config
+[2025-07-09 15:54:19,681 | ERROR]: Exception: Invalid weekday format, must be an integer or a. range of them, using '-', between 1 and 7
+[2025-07-09 15:54:19,710 | ERROR]: Traceback:
+Traceback (most recent call last):
+  File "D:\plalanda\PLAIN\fichabot\logger.py", line 84, in wrapper
+    return runner(*args, **kwargs)
+  File "D:\plalanda\PLAIN\fichabot\logger.py", line 51, in wrapper
+    result = func(*args, **kwargs)
+  File "D:\plalanda\PLAIN\fichabot\config.py", line 143, in _config
+    create_user_config(
+  File "D:\plalanda\PLAIN\fichabot\config.py", line 96, in create_user_config
+    raise ValueError(
+ValueError: Invalid weekday format, must be an integer or a. range of them, using '-', between 1 and 7
+
