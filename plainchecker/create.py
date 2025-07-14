@@ -142,7 +142,7 @@ def create(
             repass = getpass.getpass("Repeat your password: ")
             setup = passwd == repass
         keyring.set_password(
-            "plainchecker",
+            f"plainchecker_{username}",
             email,
             passwd
         )
