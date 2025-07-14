@@ -1,0 +1,40 @@
+[2025-07-14 14:36:52,357 | root | INFO]: Daemon process with PID: 7180
+[2025-07-14 14:36:52,357 | root | INFO]: Daemon listening on 127.0.0.1:21201
+[2025-07-14 14:36:55,363 | root | INFO]: Running target function target
+[2025-07-14 14:36:55,363 | root | INFO]: Arguments: ()
+[2025-07-14 14:36:55,363 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:36:55,363 | root | INFO]: Target function is running
+
+[2025-07-14 14:36:58,372 | root | INFO]: Running target function target
+[2025-07-14 14:36:58,372 | root | INFO]: Arguments: ()
+[2025-07-14 14:36:58,372 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:36:58,372 | root | INFO]: Target function is running
+
+[2025-07-14 14:36:58,373 | root | INFO]: 
+[2025-07-14 14:37:01,382 | root | INFO]: Running target function target
+[2025-07-14 14:37:01,382 | root | INFO]: Arguments: ()
+[2025-07-14 14:37:01,382 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:37:01,382 | root | INFO]: Target function is running
+
+[2025-07-14 14:37:01,382 | root | INFO]: 
+[2025-07-14 14:37:01,382 | root | INFO]: 
+[2025-07-14 14:37:04,395 | root | INFO]: Running target function target
+[2025-07-14 14:37:04,395 | root | INFO]: Arguments: ()
+[2025-07-14 14:37:04,395 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:37:04,395 | root | INFO]: Target function is running
+
+[2025-07-14 14:37:04,395 | root | INFO]: 
+[2025-07-14 14:37:04,395 | root | INFO]: 
+[2025-07-14 14:37:04,395 | root | INFO]: 
+[2025-07-14 14:37:07,397 | root | INFO]: Running target function target
+[2025-07-14 14:37:07,398 | root | INFO]: Arguments: ()
+[2025-07-14 14:37:07,398 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:37:07,398 | root | INFO]: Target function is running
+
+[2025-07-14 14:37:07,398 | root | INFO]: 
+[2025-07-14 14:37:07,398 | root | INFO]: 
+[2025-07-14 14:37:07,398 | root | INFO]: 
+[2025-07-14 14:37:07,398 | root | INFO]: 
+[2025-07-14 14:37:10,163 | root | INFO]: Connection from ('127.0.0.1', 56583)
+[2025-07-14 14:37:10,163 | root | INFO]: Received command: stop
+[2025-07-14 14:37:10,163 | root | INFO]: Stopping daemon
