@@ -5,6 +5,7 @@ except ModuleNotFoundError:
     from __init__ import CONFIG_DIR, LOG_DIR
     from logger import setup_logging, LOG_LEVELS
 from datetime import datetime
+import keyring
 import click
 import json
 import os
@@ -57,4 +58,12 @@ def remove(
     config_json = config_json[:user_config] + config_json[user_config + 1:]
     with open(config_file, "w") as f:
         json.dump(config_json, f, indent=4)
+    keyring.delete_password(
+        f"plainchecker_{username}",
+        email
+    )
     logger.info(f"User {username} with email {email} removed successfully.")
+
+
+if __name__ == "__main__":
+    remove()
