@@ -45,16 +45,15 @@ def remove(
             f"plainchecker_remove_{datetime.now().strftime('%Y%m%d%H%M%S')}.log"
         )
     )
+    logger.info(f"Removing email {email} from username {username}...")
     config_file = os.path.join(CONFIG_DIR, f"{username}.json")
     if not os.path.exists(config_file):
-        logger.error(f"Configuration for user {username} does not exist.")
-        return
+        raise ValueError(f"Configuration for user {username} does not exist.")
     config_json: list = json.load(open(config_file, "r"))
     user_config = next((i for i, conf in enumerate(config_json) \
                         if conf.get("email") == email), None)
     if user_config is None:
-        logger.error(f"Email {email} not found in the configuration for user {username}.")
-        return
+        raise ValueError(f"Email {email} not found in the configuration for user {username}.")
     config_json = config_json[:user_config] + config_json[user_config + 1:]
     with open(config_file, "w") as f:
         json.dump(config_json, f, indent=4)
@@ -62,7 +61,7 @@ def remove(
         f"plainchecker_{username}",
         email
     )
-    logger.info(f"User {username} with email {email} removed successfully.")
+    logger.info(f"Email {email} from username {username} removed successfully.")
 
 
 if __name__ == "__main__":
