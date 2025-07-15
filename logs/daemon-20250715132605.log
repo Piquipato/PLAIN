@@ -1,0 +1,307 @@
+[2025-07-15 13:26:05,735 | root | INFO]: Daemon process with PID: 14160
+[2025-07-15 13:26:05,735 | root | INFO]: Daemon listening on 127.0.0.1:21201
+[2025-07-15 13:26:08,741 | root | INFO]: Running target function target
+[2025-07-15 13:26:08,741 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:08,741 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:08,741 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:11,747 | root | INFO]: Running target function target
+[2025-07-15 13:26:11,747 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:11,748 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:11,748 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:14,754 | root | INFO]: Running target function target
+[2025-07-15 13:26:14,754 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:14,755 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:14,755 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:17,755 | root | INFO]: Running target function target
+[2025-07-15 13:26:17,755 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:17,755 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:17,755 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:20,770 | root | INFO]: Running target function target
+[2025-07-15 13:26:20,770 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:20,770 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:20,770 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:23,770 | root | INFO]: Running target function target
+[2025-07-15 13:26:23,771 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:23,771 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:23,771 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:26,784 | root | INFO]: Running target function target
+[2025-07-15 13:26:26,784 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:26,784 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:26,784 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:29,795 | root | INFO]: Running target function target
+[2025-07-15 13:26:29,795 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:29,795 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:29,796 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:32,798 | root | INFO]: Running target function target
+[2025-07-15 13:26:32,799 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:32,799 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:32,799 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:35,802 | root | INFO]: Running target function target
+[2025-07-15 13:26:35,802 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:35,802 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:35,802 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:38,814 | root | INFO]: Running target function target
+[2025-07-15 13:26:38,814 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:38,815 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:38,815 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:41,831 | root | INFO]: Running target function target
+[2025-07-15 13:26:41,832 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:41,832 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:41,832 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:44,833 | root | INFO]: Running target function target
+[2025-07-15 13:26:44,834 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:44,834 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:44,835 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:47,845 | root | INFO]: Running target function target
+[2025-07-15 13:26:47,845 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:47,845 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:47,845 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:50,846 | root | INFO]: Running target function target
+[2025-07-15 13:26:50,846 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:50,846 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:50,846 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:53,846 | root | INFO]: Running target function target
+[2025-07-15 13:26:53,846 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:53,847 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:53,847 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:56,863 | root | INFO]: Running target function target
+[2025-07-15 13:26:56,863 | root | INFO]: Arguments: ()
+[2025-07-15 13:26:56,863 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:26:56,863 | root | INFO]: Target function is running
+
+[2025-07-15 13:26:58,709 | root | INFO]: Connection from ('127.0.0.1', 64103)
+[2025-07-15 13:26:58,709 | root | INFO]: Received command: ping
+[2025-07-15 13:27:01,722 | root | INFO]: Running target function target
+[2025-07-15 13:27:01,722 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:01,723 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:01,723 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:04,730 | root | INFO]: Running target function target
+[2025-07-15 13:27:04,730 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:04,730 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:04,731 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:07,732 | root | INFO]: Running target function target
+[2025-07-15 13:27:07,732 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:07,733 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:07,733 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:10,737 | root | INFO]: Running target function target
+[2025-07-15 13:27:10,737 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:10,737 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:10,737 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:13,746 | root | INFO]: Running target function target
+[2025-07-15 13:27:13,747 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:13,747 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:13,747 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:16,747 | root | INFO]: Running target function target
+[2025-07-15 13:27:16,747 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:16,748 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:16,748 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:19,753 | root | INFO]: Running target function target
+[2025-07-15 13:27:19,753 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:19,753 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:19,753 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:22,767 | root | INFO]: Running target function target
+[2025-07-15 13:27:22,767 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:22,767 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:22,767 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:25,777 | root | INFO]: Running target function target
+[2025-07-15 13:27:25,777 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:25,777 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:25,777 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:28,787 | root | INFO]: Running target function target
+[2025-07-15 13:27:28,787 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:28,787 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:28,788 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:31,805 | root | INFO]: Running target function target
+[2025-07-15 13:27:31,805 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:31,805 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:31,806 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:34,814 | root | INFO]: Running target function target
+[2025-07-15 13:27:34,814 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:34,814 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:34,815 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:37,815 | root | INFO]: Running target function target
+[2025-07-15 13:27:37,815 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:37,816 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:37,816 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:40,836 | root | INFO]: Running target function target
+[2025-07-15 13:27:40,836 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:40,836 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:40,836 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:43,837 | root | INFO]: Running target function target
+[2025-07-15 13:27:43,837 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:43,837 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:43,838 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:46,847 | root | INFO]: Running target function target
+[2025-07-15 13:27:46,847 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:46,847 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:46,847 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:49,859 | root | INFO]: Running target function target
+[2025-07-15 13:27:49,859 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:49,859 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:49,859 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:52,869 | root | INFO]: Running target function target
+[2025-07-15 13:27:52,869 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:52,869 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:52,869 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:55,879 | root | INFO]: Running target function target
+[2025-07-15 13:27:55,880 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:55,880 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:55,880 | root | INFO]: Target function is running
+
+[2025-07-15 13:27:58,891 | root | INFO]: Running target function target
+[2025-07-15 13:27:58,891 | root | INFO]: Arguments: ()
+[2025-07-15 13:27:58,891 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:27:58,891 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:01,907 | root | INFO]: Running target function target
+[2025-07-15 13:28:01,907 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:01,907 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:01,907 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:04,929 | root | INFO]: Running target function target
+[2025-07-15 13:28:04,930 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:04,930 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:04,930 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:07,940 | root | INFO]: Running target function target
+[2025-07-15 13:28:07,940 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:07,940 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:07,940 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:10,965 | root | INFO]: Running target function target
+[2025-07-15 13:28:10,965 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:10,965 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:10,965 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:13,969 | root | INFO]: Running target function target
+[2025-07-15 13:28:13,969 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:13,969 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:13,969 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:16,971 | root | INFO]: Running target function target
+[2025-07-15 13:28:16,971 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:16,971 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:16,971 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:19,979 | root | INFO]: Running target function target
+[2025-07-15 13:28:19,979 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:19,979 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:19,979 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:22,988 | root | INFO]: Running target function target
+[2025-07-15 13:28:22,988 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:22,988 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:22,988 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:25,997 | root | INFO]: Running target function target
+[2025-07-15 13:28:25,997 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:25,997 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:25,997 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:28,998 | root | INFO]: Running target function target
+[2025-07-15 13:28:28,999 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:28,999 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:28,999 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:32,007 | root | INFO]: Running target function target
+[2025-07-15 13:28:32,007 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:32,007 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:32,007 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:35,019 | root | INFO]: Running target function target
+[2025-07-15 13:28:35,019 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:35,019 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:35,019 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:38,028 | root | INFO]: Running target function target
+[2025-07-15 13:28:38,028 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:38,028 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:38,028 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:41,033 | root | INFO]: Running target function target
+[2025-07-15 13:28:41,033 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:41,033 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:41,033 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:44,052 | root | INFO]: Running target function target
+[2025-07-15 13:28:44,053 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:44,053 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:44,053 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:47,054 | root | INFO]: Running target function target
+[2025-07-15 13:28:47,055 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:47,055 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:47,055 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:50,068 | root | INFO]: Running target function target
+[2025-07-15 13:28:50,068 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:50,068 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:50,069 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:53,075 | root | INFO]: Running target function target
+[2025-07-15 13:28:53,075 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:53,075 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:53,076 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:56,090 | root | INFO]: Running target function target
+[2025-07-15 13:28:56,090 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:56,090 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:56,090 | root | INFO]: Target function is running
+
+[2025-07-15 13:28:59,096 | root | INFO]: Running target function target
+[2025-07-15 13:28:59,096 | root | INFO]: Arguments: ()
+[2025-07-15 13:28:59,096 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:28:59,096 | root | INFO]: Target function is running
+
+[2025-07-15 13:29:02,098 | root | INFO]: Running target function target
+[2025-07-15 13:29:02,098 | root | INFO]: Arguments: ()
+[2025-07-15 13:29:02,098 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:29:02,098 | root | INFO]: Target function is running
+
+[2025-07-15 13:29:05,105 | root | INFO]: Running target function target
+[2025-07-15 13:29:05,105 | root | INFO]: Arguments: ()
+[2025-07-15 13:29:05,105 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:29:05,105 | root | INFO]: Target function is running
+
+[2025-07-15 13:29:08,113 | root | INFO]: Running target function target
+[2025-07-15 13:29:08,113 | root | INFO]: Arguments: ()
+[2025-07-15 13:29:08,113 | root | INFO]: Keyword arguments: {}
+[2025-07-15 13:29:08,113 | root | INFO]: Target function is running
+
+[2025-07-15 13:29:08,116 | root | INFO]: Connection from ('127.0.0.1', 64202)
+[2025-07-15 13:29:08,116 | root | INFO]: Received command: stop
+[2025-07-15 13:29:08,116 | root | INFO]: Stopping daemon

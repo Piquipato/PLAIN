@@ -27,8 +27,10 @@ def send_command(
     command: str,
     host: str = HOST,
     port: int = PORT,
+    timeout: float = 0.5,
 ):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+        sock.settimeout(timeout) 
         sock.connect((host, port))
         data = pickle.dumps(command)
         sock.sendall(data)
@@ -82,6 +84,7 @@ class DaemonProcess:
             return result
         return wrapper
 
+    setup_logging = staticmethod(setup_logging)
 
     def _run(
         self
@@ -89,7 +92,7 @@ class DaemonProcess:
         self.logger = self.setup_logging(
             log_level=self.log_level,
             log_file=self.log_file,
-            log_cmd=False,
+            log_cmd=True,
             log_format="[%(asctime)s | %(name)s | %(levelname)s]: %(message)s",
         )
         with socket.socket(
@@ -117,6 +120,8 @@ class DaemonProcess:
                             conn.sendall(pickle.dumps(response))
                             self.logger.info(response)
                             break
+                        elif command == "ping":
+                            conn.sendall(pickle.dumps("pong"))
                         else:
                             response = f"Command '{command}' received, ignoring..."
                             conn.sendall(pickle.dumps(response))

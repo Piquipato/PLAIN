@@ -9,7 +9,7 @@ def setup_logging(
     log_level: int = 20,
     log_file: str = None,
     log_format: str = '[%(asctime)s | %(levelname)s] : %(message)s',
-    log_cmd: bool = False,
+    log_cmd: bool = True,
 ):
     logger = logging.getLogger()
     logger.setLevel(log_level)
