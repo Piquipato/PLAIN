@@ -1,0 +1,2 @@
+[console_scripts]
+plainchecker = plainchecker.cli:plainchecker

@@ -1,0 +1,94 @@
+[2025-07-16 15:18:31,162 | root | INFO]: Daemon process with PID: 3908
+[2025-07-16 15:18:31,164 | root | INFO]: Running target function check
+[2025-07-16 15:18:31,164 | root | INFO]: Arguments: (5.0, 5.0)
+[2025-07-16 15:18:31,164 | root | INFO]: Keyword arguments: {}
+[2025-07-16 15:18:31,164 | root | INFO]: Grabbing configuration files...
+[2025-07-16 15:18:31,170 | root | INFO]: Found 1 valid configurations.
+[2025-07-16 15:18:31,170 | root | INFO]: Starting check-in process for each configuration...
+[2025-07-16 15:18:31,172 | root | INFO]: Checking in for plalandelg with schedule ('09:57', '13:04')...
+[2025-07-16 15:18:31,172 | root | INFO]: Starting check-in process...
+[2025-07-16 15:18:31,172 | root | INFO]: Configuring Selenium WebDriver...
+[2025-07-16 15:18:31,174 | selenium.webdriver.common.selenium_manager | DEBUG]: Selenium Manager set by env SE_MANAGER_PATH to: C:\Users\geneticalapaz\AppData\Local\anaconda3\envs\webdriver\Scripts\selenium-manager.exe
+[2025-07-16 15:18:31,174 | selenium.webdriver.common.selenium_manager | DEBUG]: Selenium Manager binary found at: C:\Users\geneticalapaz\AppData\Local\anaconda3\envs\webdriver\Scripts\selenium-manager.exe
+[2025-07-16 15:18:31,174 | selenium.webdriver.common.selenium_manager | DEBUG]: Executing process: C:\Users\geneticalapaz\AppData\Local\anaconda3\envs\webdriver\Scripts\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: Sending stats to Plausible: Props { browser: "chrome", browser_version: "", os: "windows", arch: "amd64", lang: "python", selenium_version: "4.34" }
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: chromedriver not found in PATH
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: chrome detected at C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: Detected browser: chrome 120.0.6099.217
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: Discovering versions from https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: Required driver: chromedriver 120.0.6099.109
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: chromedriver 120.0.6099.109 already in the cache
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: Driver path: C:\Users\geneticalapaz\.cache\selenium\chromedriver\win64\120.0.6099.109\chromedriver.exe
+[2025-07-16 15:18:33,178 | selenium.webdriver.common.selenium_manager | DEBUG]: Browser path: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[2025-07-16 15:18:33,269 | selenium.webdriver.common.service | DEBUG]: Started executable: `C:\Users\geneticalapaz\.cache\selenium\chromedriver\win64\120.0.6099.109\chromedriver.exe` in a child process with pid: 20224 using 0 to output -3
+[2025-07-16 15:18:33,793 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', 'args': ['--headless']}}}}
+[2025-07-16 15:18:33,795 | urllib3.connectionpool | DEBUG]: Starting new HTTP connection (1): localhost:49592
+[2025-07-16 15:18:35,403 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session HTTP/1.1" 200 0
+[2025-07-16 15:18:35,404 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome-headless-shell","browserVersion":"120.0.6099.217","chrome":{"chromedriverVersion":"120.0.6099.109 (3419140ab665596f21b385ce136419fde0924272-refs/branch-heads/6099@{#1483})","userDataDir":"C:\\Users\\GENETI~1\\AppData\\Local\\Temp\\scoped_dir20224_2051107658"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:49598"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"954a80b1e125441ca0dc571704723087"}} | headers=HTTPHeaderDict({'Content-Length': '902', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:35,404 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:35,405 | root | INFO]: Getting webpage and logging in...
+[2025-07-16 15:18:35,405 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/url {'url': 'https://app.plain.ninja/login'}
+[2025-07-16 15:18:40,419 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/url HTTP/1.1" 200 0
+[2025-07-16 15:18:40,419 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:40,419 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:42,122 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element {'using': 'xpath', 'value': "//input[@type='email']"}
+[2025-07-16 15:18:42,137 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element HTTP/1.1" 200 0
+[2025-07-16 15:18:42,139 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"98C7250D561C9FAE072879BE1AD1246D_element_3"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:42,139 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:43,241 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_3/value {'text': 'plalandelg@gmail.com', 'value': ['p', 'l', 'a', 'l', 'a', 'n', 'd', 'e', 'l', 'g', '@', 'g', 'm', 'a', 'i', 'l', '.', 'c', 'o', 'm']}
+[2025-07-16 15:18:43,336 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_3/value HTTP/1.1" 200 0
+[2025-07-16 15:18:43,336 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:43,336 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:43,336 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element {'using': 'xpath', 'value': "//input[@type='password']"}
+[2025-07-16 15:18:43,350 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element HTTP/1.1" 200 0
+[2025-07-16 15:18:43,350 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"98C7250D561C9FAE072879BE1AD1246D_element_17"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:43,351 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:44,384 | keyring.backend | DEBUG]: Loading KWallet
+[2025-07-16 15:18:44,388 | keyring.backend | DEBUG]: Loading SecretService
+[2025-07-16 15:18:44,390 | keyring.backend | DEBUG]: Loading Windows
+[2025-07-16 15:18:44,407 | win32ctypes.core.cffi | DEBUG]: Loaded cffi backend
+[2025-07-16 15:18:44,586 | keyring.backend | DEBUG]: Loading chainer
+[2025-07-16 15:18:44,590 | keyring.backend | DEBUG]: Loading libsecret
+[2025-07-16 15:18:44,595 | keyring.backend | DEBUG]: Loading macOS
+[2025-07-16 15:18:44,617 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_17/value {'text': 'Duc4t0@LAL1084', 'value': ['D', 'u', 'c', '4', 't', '0', '@', 'L', 'A', 'L', '1', '0', '8', '4']}
+[2025-07-16 15:18:44,694 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_17/value HTTP/1.1" 200 0
+[2025-07-16 15:18:44,694 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:44,694 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:44,694 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element {'using': 'xpath', 'value': "//button[@type='submit']"}
+[2025-07-16 15:18:44,709 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element HTTP/1.1" 200 0
+[2025-07-16 15:18:44,710 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"98C7250D561C9FAE072879BE1AD1246D_element_9"}} | headers=HTTPHeaderDict({'Content-Length': '94', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:44,711 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:44,711 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_9/click {}
+[2025-07-16 15:18:44,765 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_9/click HTTP/1.1" 200 0
+[2025-07-16 15:18:44,766 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:44,766 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:44,766 | root | INFO]: Logged in successfully!
+[2025-07-16 15:18:47,283 | root | INFO]: Navigating to check-in page...
+[2025-07-16 15:18:47,283 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element {'using': 'xpath', 'value': "//a[@href='/my-times']"}
+[2025-07-16 15:18:47,294 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element HTTP/1.1" 200 0
+[2025-07-16 15:18:47,294 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"98C7250D561C9FAE072879BE1AD1246D_element_43"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:47,294 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:47,294 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_43/click {}
+[2025-07-16 15:18:47,422 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element/98C7250D561C9FAE072879BE1AD1246D_element_43/click HTTP/1.1" 200 0
+[2025-07-16 15:18:47,423 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:47,423 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:50,614 | root | INFO]: Filling in check-in times...
+[2025-07-16 15:18:50,614 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element {'using': 'xpath', 'value': "//tr[contains(@class, 'today')]/td/form/span/input[@type='time' and contains(@id, 'start')]"}
+[2025-07-16 15:18:50,630 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element HTTP/1.1" 200 0
+[2025-07-16 15:18:50,630 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"98C7250D561C9FAE072879BE1AD1246D_element_74"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:50,630 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:50,630 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/element {'using': 'xpath', 'value': "//tr[contains(@class, 'today')]/td/form/span/input[@type='time' and contains(@id, 'end')]"}
+[2025-07-16 15:18:50,642 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/element HTTP/1.1" 200 0
+[2025-07-16 15:18:50,642 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"98C7250D561C9FAE072879BE1AD1246D_element_76"}} | headers=HTTPHeaderDict({'Content-Length': '95', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:50,642 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:50,642 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/execute/sync {'script': '\n        var input = arguments[0];\n        var nativeInputValueSetter = Object.getOwnPropertyDescrip...', 'args': [{'element-6066-11e4-a52e-4f735466cecf': '98C7250D561C9FAE072879BE1AD1246D_element_74'}, '09:57']}
+[2025-07-16 15:18:50,872 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/execute/sync HTTP/1.1" 200 0
+[2025-07-16 15:18:50,873 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:50,873 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:53,166 | selenium.webdriver.remote.remote_connection | DEBUG]: POST http://localhost:49592/session/954a80b1e125441ca0dc571704723087/execute/sync {'script': '\n        var input = arguments[0];\n        var nativeInputValueSetter = Object.getOwnPropertyDescrip...', 'args': [{'element-6066-11e4-a52e-4f735466cecf': '98C7250D561C9FAE072879BE1AD1246D_element_76'}, '13:04']}
+[2025-07-16 15:18:53,387 | urllib3.connectionpool | DEBUG]: http://localhost:49592 "POST /session/954a80b1e125441ca0dc571704723087/execute/sync HTTP/1.1" 200 0
+[2025-07-16 15:18:53,387 | selenium.webdriver.remote.remote_connection | DEBUG]: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+[2025-07-16 15:18:53,387 | selenium.webdriver.remote.remote_connection | DEBUG]: Finished Request
+[2025-07-16 15:18:58,326 | root | INFO]: All Done!
+[2025-07-16 15:18:58,327 | root | INFO]: Check-in process completed for all configurations.
+[2025-07-16 15:18:58,327 | root | INFO]: Daemon listening on 127.0.0.1:21201

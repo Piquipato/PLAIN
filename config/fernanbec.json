@@ -1,0 +1,24 @@
+[
+    {
+        "username": "fernanbec",
+        "email": "fernando.becerril@idipaz.es",
+        "work_days": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "exceptions": [
+            "18/07/2025",
+            "19/07/2025",
+            "20/07/2025",
+            "21/07/2025",
+            "22/07/2025"
+        ],
+        "schedule": [
+            "9:00",
+            "16:30"
+        ]
+    }
+]

@@ -1,0 +1,186 @@
+[2025-07-14 14:26:15,147 | root | INFO]: Daemon process with name TestDaemon started with PID: 12400
+[2025-07-14 14:26:15,464 | root | INFO]: Daemon listening on 127.0.0.1:21201
+[2025-07-14 14:26:18,470 | root | INFO]: Running target function target
+[2025-07-14 14:26:18,471 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:18,471 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:18,471 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:18,471 | root | ERROR]: 
+[2025-07-14 14:26:21,480 | root | INFO]: Running target function target
+[2025-07-14 14:26:21,480 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:21,480 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:21,480 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:21,481 | root | ERROR]: 
+[2025-07-14 14:26:21,481 | root | INFO]: 
+[2025-07-14 14:26:21,481 | root | ERROR]: 
+[2025-07-14 14:26:24,487 | root | INFO]: Running target function target
+[2025-07-14 14:26:24,487 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:24,487 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:24,487 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:24,488 | root | ERROR]: 
+[2025-07-14 14:26:24,488 | root | INFO]: 
+[2025-07-14 14:26:24,488 | root | ERROR]: 
+[2025-07-14 14:26:24,488 | root | INFO]: 
+[2025-07-14 14:26:24,488 | root | ERROR]: 
+[2025-07-14 14:26:27,488 | root | INFO]: Running target function target
+[2025-07-14 14:26:27,488 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:27,488 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:27,489 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:27,489 | root | ERROR]: 
+[2025-07-14 14:26:27,489 | root | INFO]: 
+[2025-07-14 14:26:27,489 | root | ERROR]: 
+[2025-07-14 14:26:27,489 | root | INFO]: 
+[2025-07-14 14:26:27,489 | root | ERROR]: 
+[2025-07-14 14:26:27,490 | root | INFO]: 
+[2025-07-14 14:26:27,490 | root | ERROR]: 
+[2025-07-14 14:26:30,492 | root | INFO]: Running target function target
+[2025-07-14 14:26:30,492 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:30,492 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:30,492 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:30,492 | root | ERROR]: 
+[2025-07-14 14:26:30,492 | root | INFO]: 
+[2025-07-14 14:26:30,492 | root | ERROR]: 
+[2025-07-14 14:26:30,492 | root | INFO]: 
+[2025-07-14 14:26:30,492 | root | ERROR]: 
+[2025-07-14 14:26:30,492 | root | INFO]: 
+[2025-07-14 14:26:30,492 | root | ERROR]: 
+[2025-07-14 14:26:30,492 | root | INFO]: 
+[2025-07-14 14:26:30,492 | root | ERROR]: 
+[2025-07-14 14:26:33,504 | root | INFO]: Running target function target
+[2025-07-14 14:26:33,504 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:33,504 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:33,504 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:33,504 | root | ERROR]: 
+[2025-07-14 14:26:33,505 | root | INFO]: 
+[2025-07-14 14:26:33,505 | root | ERROR]: 
+[2025-07-14 14:26:33,505 | root | INFO]: 
+[2025-07-14 14:26:33,505 | root | ERROR]: 
+[2025-07-14 14:26:33,505 | root | INFO]: 
+[2025-07-14 14:26:33,505 | root | ERROR]: 
+[2025-07-14 14:26:33,505 | root | INFO]: 
+[2025-07-14 14:26:33,505 | root | ERROR]: 
+[2025-07-14 14:26:33,505 | root | INFO]: 
+[2025-07-14 14:26:33,506 | root | ERROR]: 
+[2025-07-14 14:26:36,512 | root | INFO]: Running target function target
+[2025-07-14 14:26:36,512 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:36,512 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:36,512 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:36,512 | root | ERROR]: 
+[2025-07-14 14:26:36,512 | root | INFO]: 
+[2025-07-14 14:26:36,512 | root | ERROR]: 
+[2025-07-14 14:26:36,512 | root | INFO]: 
+[2025-07-14 14:26:36,512 | root | ERROR]: 
+[2025-07-14 14:26:36,512 | root | INFO]: 
+[2025-07-14 14:26:36,512 | root | ERROR]: 
+[2025-07-14 14:26:36,512 | root | INFO]: 
+[2025-07-14 14:26:36,512 | root | ERROR]: 
+[2025-07-14 14:26:36,512 | root | INFO]: 
+[2025-07-14 14:26:36,512 | root | ERROR]: 
+[2025-07-14 14:26:36,512 | root | INFO]: 
+[2025-07-14 14:26:36,512 | root | ERROR]: 
+[2025-07-14 14:26:39,513 | root | INFO]: Running target function target
+[2025-07-14 14:26:39,513 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:39,513 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:39,514 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:39,514 | root | INFO]: 
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:39,514 | root | INFO]: 
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:39,514 | root | INFO]: 
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:39,514 | root | INFO]: 
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:39,514 | root | INFO]: 
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:39,514 | root | INFO]: 
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:39,514 | root | INFO]: 
+[2025-07-14 14:26:39,514 | root | ERROR]: 
+[2025-07-14 14:26:42,529 | root | INFO]: Running target function target
+[2025-07-14 14:26:42,529 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:42,529 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:42,530 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:42,530 | root | ERROR]: 
+[2025-07-14 14:26:42,530 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:42,531 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:42,531 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:42,531 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:42,531 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:42,531 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:42,531 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:42,531 | root | INFO]: 
+[2025-07-14 14:26:42,531 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: Running target function target
+[2025-07-14 14:26:45,532 | root | INFO]: Arguments: ()
+[2025-07-14 14:26:45,532 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:26:45,532 | root | INFO]: Target function is running
+
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:45,532 | root | INFO]: 
+[2025-07-14 14:26:45,532 | root | ERROR]: 
+[2025-07-14 14:26:46,815 | root | INFO]: Connection from ('127.0.0.1', 56286)
+[2025-07-14 14:26:46,815 | root | INFO]: Received command: stop
+[2025-07-14 14:26:46,815 | root | INFO]: Stopping daemon
+[2025-07-14 14:33:40,548 | root | INFO]: Daemon process with PID: 3628
+[2025-07-14 14:33:40,548 | root | INFO]: Daemon listening on 127.0.0.1:21201
+[2025-07-14 14:33:43,556 | root | INFO]: Running target function target
+[2025-07-14 14:33:43,556 | root | INFO]: Arguments: ()
+[2025-07-14 14:33:43,556 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:33:43,556 | root | INFO]: Target function is running
+
+[2025-07-14 14:33:46,562 | root | INFO]: Running target function target
+[2025-07-14 14:33:46,562 | root | INFO]: Arguments: ()
+[2025-07-14 14:33:46,562 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:33:46,562 | root | INFO]: Target function is running
+
+[2025-07-14 14:33:46,562 | root | INFO]: 
+[2025-07-14 14:33:49,571 | root | INFO]: Running target function target
+[2025-07-14 14:33:49,571 | root | INFO]: Arguments: ()
+[2025-07-14 14:33:49,571 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:33:49,571 | root | INFO]: Target function is running
+
+[2025-07-14 14:33:49,571 | root | INFO]: 
+[2025-07-14 14:33:49,571 | root | INFO]: 
+[2025-07-14 14:33:52,579 | root | INFO]: Running target function target
+[2025-07-14 14:33:52,579 | root | INFO]: Arguments: ()
+[2025-07-14 14:33:52,579 | root | INFO]: Keyword arguments: {}
+[2025-07-14 14:33:52,579 | root | INFO]: Target function is running
+
+[2025-07-14 14:33:52,579 | root | INFO]: 
+[2025-07-14 14:33:52,579 | root | INFO]: 
+[2025-07-14 14:33:52,579 | root | INFO]: 
+[2025-07-14 14:33:55,212 | root | INFO]: Connection from ('127.0.0.1', 56476)
+[2025-07-14 14:33:55,212 | root | INFO]: Received command: stop
+[2025-07-14 14:33:55,212 | root | INFO]: Stopping daemon
