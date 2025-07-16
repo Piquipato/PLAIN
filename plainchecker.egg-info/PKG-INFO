@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: plainchecker
+Version: 0.1
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: openpyxl
+Requires-Dist: scikit-learn
+Requires-Dist: selenium
+Requires-Dist: click
+Requires-Dist: keyring
+Requires-Dist: tabulate
+Requires-Dist: psutil

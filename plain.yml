@@ -13,6 +13,7 @@ dependencies:
   - keyring
   - tabulate
   - conda-lock
+  - pip
   - pip:
       - psutil
-prefix: C:\Users\geneticalapaz\AppData\Local\anaconda3\envs\webdriver
+prefix: C:\Users\geneticalapaz\AppData\Local\anaconda3\envs\plain

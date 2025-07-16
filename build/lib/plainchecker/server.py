@@ -86,25 +86,6 @@ class DaemonProcess:
 
     setup_logging = staticmethod(setup_logging)
 
-    def _run_target(
-        self,
-    ):
-        self.logger.info(f"Running target function {self.target.__name__}")
-        if not inspect.isbuiltin(self.target):
-            sig = inspect.signature(self.target)
-            bound = sig.bind_partial(*self.args, **self.kwargs)
-            bound.apply_defaults()
-            self.logger.info(f"Arguments: {bound.args}")
-            self.logger.info(f"Keyword arguments: {bound.kwargs}")
-            self.target = self._wrap_target(self.target, self.logger)
-            self.target(*bound.args, **bound.kwargs)
-        else:
-            self.logger.info(f"Arguments: {self.args}")
-            self.logger.info(f"Keyword arguments: {self.kwargs}")
-            self.target = self._wrap_target(self.target, self.logger)
-            self.target(*self.args, **self.kwargs)
-
-
     def _run(
         self
     ):
@@ -122,7 +103,6 @@ class DaemonProcess:
             sock.settimeout(self.frequency)
             sock.listen()
             self.running = True
-            self._run_target()
             self.logger.info(f"Daemon listening on {self.host}:{self.port}")
             while self.running:
                 try:
@@ -146,7 +126,20 @@ class DaemonProcess:
                             response = f"Command '{command}' received, ignoring..."
                             conn.sendall(pickle.dumps(response))
                 except socket.timeout:
-                    self._run_target()
+                    self.logger.info(f"Running target function {self.target.__name__}")
+                    if not inspect.isbuiltin(self.target):
+                        sig = inspect.signature(self.target)
+                        bound = sig.bind_partial(*self.args, **self.kwargs)
+                        bound.apply_defaults()
+                        self.logger.info(f"Arguments: {bound.args}")
+                        self.logger.info(f"Keyword arguments: {bound.kwargs}")
+                        self.target = self._wrap_target(self.target, self.logger)
+                        self.target(*bound.args, **bound.kwargs)
+                    else:
+                        self.logger.info(f"Arguments: {self.args}")
+                        self.logger.info(f"Keyword arguments: {self.kwargs}")
+                        self.target = self._wrap_target(self.target, self.logger)
+                        self.target(*self.args, **self.kwargs)
     
 
     def store(self):
