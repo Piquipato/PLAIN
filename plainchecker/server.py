@@ -46,7 +46,7 @@ class DaemonProcess:
         host: str = HOST,
         port: int = PORT,
         target: tp.Callable = None,
-        frequency: int = 15, # mins
+        frequency: float = 15, # mins
         log_level: str = "DEBUG",
         log_file: str = os.path.abspath(f"logs/daemon-{TIMESTAMP}.log"),
         args: tp.Union[tp.List, tp.Tuple] = (),

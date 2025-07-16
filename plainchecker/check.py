@@ -131,8 +131,8 @@ def check_json(data: tp.Dict[str, tp.Any]) -> bool:
 
 def randomize_schedule(
     schedule: tp.Tuple[str, str],
-    extra_time_mean: int = 5, # mins
-    extra_time_std: int = 1, # mins
+    extra_time_mean: float = 5, # mins
+    extra_time_std: float = 1, # mins
 ) -> tp.Tuple[str, str]:
     extra_mins = np.random.gamma(
         shape = (extra_time_mean / extra_time_std) ** 2,
@@ -149,8 +149,8 @@ def randomize_schedule(
 
 
 def check(
-    extra_time_mean: int = 5,  # mins
-    extra_time_std: int = 1,  # mins
+    extra_time_mean: float = 5,  # mins
+    extra_time_std: float = 1,  # mins
 ):
     logger = setup_logging(
         log_cmd=True,
